@@ -3,6 +3,7 @@
 **BootCMS scaffolding provides 4 + 1 positions to place the Joomla modules**
 
 **Home Page** 
+
 |           Header ('top')         |  
 | :------------------------------: |
 |             'navbar'             |
