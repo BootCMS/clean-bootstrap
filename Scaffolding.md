@@ -1,6 +1,6 @@
 ### Behind the scenes active scaffolding
 
-**BootCMS scaffolding provides 4 + 1 positions to place the Joomla modules**
+**BootCMS scaffolding provides 4 + 1 positions to place modules (Joomla) or widgets (Wordpress).**
 
 ![Scaffolding Layout][scaffolding]
 
@@ -12,11 +12,11 @@ wide as the page container. It should be used only for a navigation bar.
 It is located below the navbar position, above the main content and is wide as the page 
 container. Works only on the Home page.
 
-##### **'right'** in pages to accept any kind of module
+##### **'right'** in pages to accept any kind of module or widget
 It is located on the right of the content, it does not expand on the side of the header 
 or footer. Works on any page except the Home page.
 
-##### **'footer'** to facilitate any module at the end of the page
+##### **'footer'** to facilitate any module or widget at the end of the page
 It is located below the content, it is wide as the page container and works on all of the pages.
 
 **'top'** position currently is not available for placing modules, instead the configuration 
