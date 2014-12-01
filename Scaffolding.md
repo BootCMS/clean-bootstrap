@@ -2,7 +2,7 @@
 
 **BootCMS scaffolding provides 4 + 1 positions to place the Joomla modules**
 
-Home Page      Pages (no Home)
+![Scaffolding Layout][scaffolding]
 
 ##### **'navbar'** to facilitate the main Navigation Bar
 It is located below the page header, above the main content or the user1 position and is 
@@ -25,3 +25,5 @@ in the page header.
 
 All of the positions have fallback capacity; if there is no module to use, it will not 
 create HTML with empty space. The page will be shown exactly how it should, as without the module.
+
+[scaffolding]: img/scaffolding.png "Scaffolding Layout"
