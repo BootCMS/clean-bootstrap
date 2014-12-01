@@ -35,4 +35,4 @@ page is used to add or delete site title, subtitle and images such as logos or b
 in the page header.
 
 All of the positions have fallback capacity; if there is no module to use, it will not 
-create HTML with empty space. The page will shown exactly how it should, as without the module.
+create HTML with empty space. The page will shown exactly how it should, as without the module
