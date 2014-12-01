@@ -2,18 +2,17 @@
 
 **BootCMS scaffolding provides 4 + 1 positions to place the Joomla modules**
 
-
-|           Header ('top')         | 
+**Home Page** 
+|           Header ('top')         |  
 | :------------------------------: |
 |             'navbar'             |
 |             'user1'              |
-|                                  | 
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 
 |                                  | 
 |             Content              |  
-|                                  | 
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 
 |                                  |
 |             'footer'             | 
-|----------------------------------|
 
 #### **'navbar'** to facilitate the main Navigation Bar
 It is located below the page header, above the main content or the user1 position and is 
