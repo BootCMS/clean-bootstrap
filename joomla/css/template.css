@@ -1,0 +1,66 @@
+/*** add your styles here ***/ 
+
+@media (min-width: 768px) {
+/* Dropdown menu on hover added to click */
+ul.nav li.dropdown:hover > ul.dropdown-menu{
+	display: block;    
+}
+
+/* Columns function, do not delete */	
+/* 2 columns of text */
+.columns2 {
+   -moz-column-count: 2;
+   -webkit-column-count: 2;
+   column-count: 2;
+}
+/* 3 columns of text */
+.columns3 {
+   -moz-column-count: 3;
+   -webkit-column-count: 3;
+   column-count: 3;
+}
+/* 4 columns of text */
+.columns4 {
+   -moz-column-count: 4;
+   -webkit-column-count: 4;
+   column-count: 4;
+}
+/* 5 columns of text */
+.columns5 {
+   -moz-column-count: 5;
+   -webkit-column-count: 5;
+   column-count: 5;
+}
+}
+
+/* Drop Cap function, do not delete */
+p.dropcap:first-letter  {
+	font-weight: bold;
+	font-size: 295%;
+	float: left;
+	padding-right: 0.25em;
+}
+
+/* mozilla fix */
+@-moz-document url-prefix() {
+p.dropcap:first-letter  {
+	margin-top: 0.4em;
+}
+}
+
+/* Affix function - amend as needed */
+.affix {
+ z-index: 1000;
+ bottom: -25px;
+ right: 0px;
+}
+.affix-top {
+ z-index: 1000;
+ bottom: -25px;
+ right: 0px;
+}
+.affix-bottom {
+ z-index: 1000;
+ bottom: -25px;
+ right: 0px;
+}

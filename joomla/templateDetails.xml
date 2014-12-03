@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="template">
+        <name>BootCMS</name>
+        <creationDate>2013-10-25</creationDate>
+        <author>Stavros Androulidakis</author>
+        <authorEmail>netbuddy@btinternet.com</authorEmail>
+        <authorUrl>http://www.i-Publishers.org.uk</authorUrl>
+        <copyright>Stavros Androulidakis 2013</copyright>
+        <license>MIT</license>
+        <version>1.0.0</version>
+        <description>The 'Clean Bootstrap' template by BootCMS, provides the Bootstrap framework of HTML, CSS and JS works in a Joomla CMS environment. The code has been kept to a minimum to save resources. Nevertheless, the set-up is very flexible by using CDN to swap Bootswatch themes on a matter of seconds. Experienced web-masters could also use the 'Clean Bootstrap' template, to save time on the first steps, when they create their own template or built a website based on Bootstrap framework.</description>
+        <files>
+                <filename>index.php</filename>
+                <filename>templateDetails.xml</filename>
+				<filename>params.ini</filename>
+				<filename>template_thumbnail.png</filename>
+				<filename>template_preview.png</filename>
+                <folder>img</folder>
+				<folder>js</folder>
+                <folder>css</folder>
+				<folder>fonts</folder>
+				<folder>licenses</folder>
+        </files>
+        <positions>
+				<position>navbar</position>
+                <position>user1</position>
+                <position>right</position>
+                <position>footer</position>
+        </positions>
+		<config>
+			<fields name="params">
+				<fieldset name="basic">
+					<field name="note0" type="note" 
+					label="BootCMS Joomla Clean Bootstrap Template"
+						description="&lt;p&gt;'Clean Bootstrap' is a Joomla Template by BootCMS. It is based on the Bootstrap framework and gives the ability to use with just one click any of the Bootswatch themes. Aim to be as light as a feather, we used the minimum code. Nevertheless, it is highly configurable without a need to write any line of code. With a few clicks in &lt;b&gt;Advanced&lt;/b&gt; Edit Style page, several options such as Header Text and Image, Background Image, Bootstrap Skins and Options, and more can be change in seconds. Enjoy, and remember in www.afunkystyle.com, more professional templates are available. &lt;/p&gt;&lt;h4&gt;BootCMS scaffolding provides 4 + 1 positions to place the Joomla modules&lt;/h4&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;navbar&lt;/strong&gt; - to be used only for the navigation bar (Main Menu).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;user1&lt;/strong&gt; - works only in the Home page, to be used for the Hero Unit (Jumbotron).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;right&lt;/strong&gt; - on any page except the Home page, to be used for any module.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;footer&lt;/strong&gt; - on all of the pages, to be used as page footer.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Content&lt;/strong&gt; - the default Joomla space for the articles.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;p&gt;&lt;table class='pull-left' style='width: 180px; border: 1px solid; margin-right: 25px; border-spacing: 10px; border-collapse: separate;'&gt;&lt;caption style='text-align: center;'&gt;Home Page&lt;/caption&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style='height: 35px; background-color: powderblue; text-align: center;' colspan='2'&gt;Header&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height: 15px;'&gt;&lt;td style='background-color: pink; text-align: center;' colspan='2'&gt;'navbar'&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height: 40px;'&gt;&lt;td style='background-color: palegreen; text-align: center;' colspan='2'&gt;'user1'&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height: 50px;'&gt;&lt;td style='background-color: khaki; text-align: center;' colspan='2'&gt;Content&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='height: 35px; background-color: powderblue; text-align: center;' colspan='2'&gt;'footer'&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table class='pull-left' style='width: 180px; border: 1px solid; margin-right: 25px; border-spacing: 10px; border-collapse: separate;'&gt;&lt;caption style='text-align: center;'&gt;Pages (no Home)&lt;/caption&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style='height: 35px; background-color: powderblue; text-align: center;' colspan='2'&gt;Header&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height: 15px;'&gt;&lt;td style='background-color: pink; text-align: center;' colspan='2'&gt;'navbar'&lt;/td&gt;&lt;/tr&gt;&lt;tr style='height: 100px;'&gt;&lt;td style='width: 70%; background-color: khaki; text-align: center;'&gt;Content&lt;/td&gt;&lt;td style='background-color: palegreen;'&gt;&lt;p style='text-align: center;'&gt;'right'&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='height: 35px; background-color: powderblue; text-align: center;' colspan='2'&gt;'footer'&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/p&gt;&lt;p style='display:block;clear:both'&gt; &lt;/p&gt;&lt;p&gt;For more &lt;strong&gt;Help&lt;/strong&gt; please visit &lt;a href='http://joomla.i-publishers.org.uk/help' target='_blank'&gt;joomla.i-publishers.org.uk/help&lt;/a&gt; &lt;/p&gt;&lt;hr /&gt;" />
+				</fieldset>
+				<fieldset name="advanced">	
+					<field name="note1" type="note" 
+					label="Header Text and Image"
+						description="Display a small image such as a logo with Site Title and Subtitle to the right or hide the titles and display a long image across the header.&lt;br&gt; Without logo the titles are positioned to the left. Other combinations can also be achieved." />
+					<field name="sitetitle" type="text" default=""
+						label="Site Title"
+						description="Displayed in the Header of all pages." />
+					<field name="subtitle" type="text" default=""
+						label="Subtitle"
+						description="Displayed in the Header of all pages." />
+					<field name="headertext" type="checkbox" default="1"
+						label="Show Header Text"
+						description="Display or hide the Site Title and Subtitle."
+						value="1" />
+					<field name="headerimg" type="media" default=""
+						label="Choose an Image or Logo"
+						description="Display your logo or an image in the Header." />
+					<field type="spacer" name="spacer2" hr="true" />
+					<field name="note2" type="note" 
+						label="Background Image"
+						description="Choose an image for the background of the page, such as a watermark, or choose a small image to be repeated and fill the page such as a tile." />
+					<field name="bkgrdimg" type="media" default=""
+						label="Choose a Background Image"
+						description="Display an image in the page's background." />
+					<field name="pagebkgrd" type="radio" default="0" label="Tile or Centre" description="Choose an option.">
+						<option value="0">Once in the Centre</option>
+						<option value="1">Repeat like a Tile</option>
+					</field>
+					<field name="pagebody" type="radio" default="0" label="Full page or Content" description="Choose an option.">
+						<option value="0">Fill the whole background side-to-side</option>
+						<option value="1">Whole Page including Header and Footer</option>
+						<option value="2">Behind the Content like a watermark</option>
+					</field>
+					<field name="bkgrdscroll" type="radio" default="0" label="Fixed or Scrolled" description="Choose an option.">
+						<option value="0">Scrolled with the page</option>
+						<option value="1">Fixed position</option>
+					</field>
+					<field type="spacer" name="spacer3" hr="true" />
+					<field name="note3" type="note" 
+						label="Bootstrap Skins"
+						description="Choose one of the available Bootswatch skins or the default Twitter Bootstrap.&lt;br&gt; All skins are based on CDN. For more information visit www.bootstrapcdn.com." />
+					<field name="bootskin" type="list" default="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"
+						label="Choose a skin"
+						description="All skins are CDN based.">
+						<option value="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">Twitter* v.3.3.1</option>
+						<option value="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/cerulean/bootstrap.min.css">Cerulean v.3.3.0</option>
+						<option value="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/cosmo/bootstrap.min.css">Cosmo v.3.3.0</option>
+						<option value="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/cyborg/bootstrap.min.css">Cyborg v.3.3.0</option>
+						<option value="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/darkly/bootstrap.min.css">Darkly v.3.3.0</option>
+						<option value="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/flatly/bootstrap.min.css">Flatly v.3.3.0</option>
+						<option value="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/journal/bootstrap.min.css">Journal v.3.3.0</option>
+						<option value="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/lumen/bootstrap.min.css">Lumen v.3.3.0</option>
+						<option value="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/paper/bootstrap.min.css">Paper v.3.3.0</option>
+						<option value="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/readable/bootstrap.min.css">Readable v.3.3.0</option>
+						<option value="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/sandstone/bootstrap.min.css">Sandstone v.3.3.0</option>
+						<option value="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/simplex/bootstrap.min.css">Simplex v.3.3.0</option>
+						<option value="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/slate/bootstrap.min.css">Slate v.3.3.0</option>
+						<option value="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/spacelab/bootstrap.min.css">Spacelab v.3.3.0</option>
+						<option value="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/superhero/bootstrap.min.css">Superhero v.3.3.0</option>
+						<option value="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/united/bootstrap.min.css">United v.3.3.0</option>
+						<option value="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/yeti/bootstrap.min.css">Yeti v.3.3.0</option>
+					</field>
+					<field type="spacer" name="spacer4" hr="true" />
+					<field name="note4" type="note" 
+						label="Bootstrap Options"
+						description="Normally you use tootips/popovers within a (a href='#') anchor. The minimum markup for tooltips: (data-toggle='tooltip' title='the tooltip text here').&lt;br&gt; The minimum for popovers: (data-toggle='popover' data-content='The popover text here' data-container='body').&lt;br&gt; For more options check Boostrap’s website." />
+					<field name="bootlocal" type="checkbox" default="0"
+						label="Use Local Bootstrap"
+						description="Use a custom local version of Bootstrap."
+						value="1" />
+					<field name="navinverse" type="checkbox" default="0"
+						label="Use Navbar Inverse"
+						description="Use the Inverse version of the Navbar."
+						value="1" />
+					<field name="bs_tooltip" type="checkbox" default="0"
+						label="Enable Tooltips"
+						description="Enable Bootstrap Tooltips for the site."
+						value="1" />
+					<field name="bs_popover" type="checkbox" default="0"
+						label="Enable Popovers"
+						description="Enable Bootstrap Popovers for the site."
+						value="1" />
+					<field type="spacer" name="spacer5" hr="true" />
+					<field name="note5" type="note" 
+						label="Google Web Fonts"
+						description="Visit (http://www.google.com/fonts) to choose a font for the text. Enter the name of the font, spaces accepted." />
+					<field name="googlefont" type="text" default=""
+						label="Font Name"
+						description="e.g.: Open Sans." />
+					<field type="spacer" name="spacer6" hr="true" />
+				</fieldset>
+			</fields>
+		</config>
+</extension>
